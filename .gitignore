@@ -1,0 +1,16 @@
+# Archivos locales de Terraform (binarios y plugins)
+.terraform/
+
+# Archivos de estado (CRÍTICO: Nunca subir esto)
+*.tfstate
+*.tfstate.*
+
+# Archivos de variables con secretos (si llegas a usarlos)
+*.tfvars
+*.auto.tfvars
+
+# Logs de fallos
+crash.log
+
+# Archivos de plan guardados (opcional, pero recomendado ignorar)
+*.plan
