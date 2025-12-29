@@ -7,3 +7,14 @@ terraform plan --var-file angel.tfvars
 explicar precedencia de variables
 
 se suele trabajar con: - terraform.tfvars - terraform.tfjson - _.auto.tfvars - _.auto.tfjson
+
+# Tipos de variables
+
+string
+number
+bool
+list(type)
+map(type)
+set(type)
+object
+any (default)
