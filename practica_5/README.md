@@ -17,4 +17,5 @@ list(type)
 map(type)
 set(type)
 object
+tupla -> puede contener varios tipos
 any (default)
