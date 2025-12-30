@@ -14,3 +14,8 @@ terraform apply --target <resource>
 ```
 terraform apply --target aws_subnet.public_subnet
 ```
+
+# Data
+No hace deploy infraestructura, solamente lee recursos que ya existen para luego usarlo en nuestro código
+
+
