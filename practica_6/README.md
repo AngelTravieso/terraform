@@ -25,3 +25,13 @@ Nuestros archivos .tf son los archivos HCP con la configuración de nuestra infr
 
 El archivo tfstate.backup se llena solo cuando borramos la infraestructura (terraform destroy)
 less terraform.tfstate.backup
+
+terraform show -json
+terraform provider: muestra el provider y sus contraints
+terraform plan: antes de calcular hace un refresh del state, lee las configuyraciones de los recursos ya desplegados en busca de modificaciones, en caso de encontrar alguna actualiza el tf.state
+
+```
+terraform refresh
+```
+
+terraform graph
